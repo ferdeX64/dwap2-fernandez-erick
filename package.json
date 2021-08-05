@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Demo creacion del servidor",
   "main": "index.js",
+  "engines": {
+    "node": "v16.4.2"
+  },
   "scripts": {
     "start":"node server.js",
     "dev":"nodemon server.js",
